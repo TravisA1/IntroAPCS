@@ -43,6 +43,7 @@ public class FirstClass
             System.out.println("");
         }
         System.out.println("\nDone.");
+        System.out.println("Isn't that nifty?");
     }
 
 }
