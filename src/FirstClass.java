@@ -19,20 +19,30 @@ public class FirstClass
         System.out.println("There are now "+numStooges+" stooges.");
 
 
-        int a = 0;
-        while (a < 100)
-        {
-            System.out.print(a + " --> ");
-            a += 2;
-            if (a == 32)
-            {
-                System.out.println("It's 32.");
+//        int a = 0;
+//        while (a < 100)
+//        {
+//            System.out.print(a + " --> ");
+//            a += 2;
+//            if (a == 32)
+//            {
+//                System.out.println("It's 32.");
 //                break;
 //                continue;
-            }
-            System.out.println(a);
-        }
+//            }
+//            System.out.println(a);
+//        }
 
+        for (int x = 1; x < 30; x *= 2)
+        {
+            System.out.print(x+"\t");
+            for (int i=0; i<x; i++)
+            {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        System.out.println("\nDone.");
     }
 
 }
